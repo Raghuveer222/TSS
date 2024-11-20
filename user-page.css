@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Sidebar Styling */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 220px;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+#sidebar h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sidebar .list-group-item {
+    border: none;
+    background-color: transparent;
+}
+
+#sidebar .list-group-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+#sidebar .list-group-item a:hover {
+    color: #007bff;
+}
+
+/* Main Content */
+#home {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+#profile {
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+/* Profile Section */
+#user-profile-info {
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+#profile img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Sidebar and Main Content Layout for Smaller Screens */
+@media (max-width: 768px) {
+    .col-md-2, .col-md-10 {
+        width: 100%;
+    }
+
+    .col-md-2 {
+        padding: 10px;
+    }
+
+    .col-md-10 {
+        padding: 20px;
+    }
+}
